@@ -1,0 +1,5 @@
+.card1{
+    background-color: gainsboro;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+}
