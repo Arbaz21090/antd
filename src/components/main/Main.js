@@ -39,6 +39,8 @@ setData([...arr])
             }}
           />
           <TextField
+          onCopy={()=>window.alert(`copy mat kar sale`)}
+          onPaste={()=>window.alert('paste mat kar')}
             value={form.email}
             id="outlined-basic"
             label="Email"
